@@ -132,42 +132,30 @@ INSERT INTO Submit_Position (user_id, position_id) VALUES
 (1, 2);
 
 INSERT INTO Register_CareerFair (fair_id, user_id) VALUES
-(1, 1), (1, 2), (2, 3), (2, 8), (3, 9), (4, 17), (5, 20);
+(1, 1), (1, 2), (1, 3), (1, 8), (1, 9),
+(2, 3), (2, 8), (2, 17), (2, 20),
+(3, 9), (3, 17), (3, 20),
+(4, 6), (4, 7), (4, 13), (4, 19),
+(5, 2), (5, 3), (5, 7), (5, 14), (5, 15),
+(6, 7), (6, 14), (6, 16), (6, 17), (6, 20),
+(7, 1), (7, 6), (7, 8), (7, 16), (7, 19);
 
 
 -- Insert data into Attend_CareerFair table based on registered users
 INSERT INTO Attend_CareerFair (fair_id, user_id, status) VALUES
-(1, 1, 'confirmed'),
-(1, 2, 'canceled'),
-(1, 3, 'confirmed'),
-(1, 8, 'confirmed'),
-(1, 9, 'confirmed'),
-(2, 17, 'confirmed'),
+(1, 1, 'confirmed'), (1, 2, 'canceled'), (1, 3, 'confirmed'), 
+(1, 8, 'confirmed'), (1, 9, 'confirmed'),
+(2, 3, 'confirmed'), (2, 8, 'confirmed'), (2, 17, 'confirmed'), 
 (2, 20, 'confirmed'),
-(2, 3, 'confirmed'),
-(2, 8, 'confirmed'),
-(3, 9, 'confirmed'),
-(3, 17, 'confirmed'),
-(3, 20, 'confirmed'),
-(4, 6, 'confirmed'),
-(4, 7, 'confirmed'),
-(4, 13, 'confirmed'),
+(3, 9, 'confirmed'), (3, 17, 'confirmed'), (3, 20, 'confirmed'),
+(4, 6, 'confirmed'), (4, 7, 'confirmed'), (4, 13, 'confirmed'), 
 (4, 19, 'confirmed'),
-(5, 7, 'confirmed'),
-(5, 14, 'confirmed'),
-(5, 15, 'confirmed'),
-(6, 16, 'confirmed'),
-(6, 14, 'confirmed'),
-(6, 7, 'confirmed'),
-(7, 19, 'confirmed'),
-(7, 6, 'confirmed'),
-(7, 16, 'confirmed'),
-(7, 1, 'confirmed'),
-(7, 8, 'confirmed'),
-(5, 2, 'confirmed'),
-(5, 3, 'confirmed'),
-(6, 17, 'confirmed'),
-(6, 20, 'confirmed');
+(5, 2, 'confirmed'), (5, 3, 'confirmed'), (5, 7, 'confirmed'), 
+(5, 14, 'confirmed'), (5, 15, 'confirmed'),
+(6, 7, 'confirmed'), (6, 14, 'confirmed'), (6, 16, 'confirmed'), 
+(6, 17, 'confirmed'), (6, 20, 'confirmed'),
+(7, 1, 'confirmed'), (7, 6, 'confirmed'), (7, 8, 'confirmed'), 
+(7, 16, 'confirmed'), (7, 19, 'confirmed');
 
 
 
