@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Test MySQL</title>
+</head>
+<table>
+  <thead>
+    <tr>
+      <th>SSN</th>
+      <th>Department</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for employee in data %}
+    <tr>
+        <td>{{ employee.0 }}</td>
+        <td>{{ employee.1 }}</td>
+    </tr>
+   {% endfor %}
+  </tbody>
+</table>
+</html>
